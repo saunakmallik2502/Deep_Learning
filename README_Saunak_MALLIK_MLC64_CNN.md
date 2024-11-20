@@ -49,14 +49,15 @@
         - As the training epochs progress, the training loss decreases, however, the validation loss exhibits an opposing trend and increases.
 
 
-    - __Model2__ . Enrich the previous model by __Augmenting the dataset__ (training, validation and testing) with __RandomFlip, RandomRotation and RandomZoom__ and adding a __DROPOUTS layer__ additionally. Train the model for 30 epochs.
+    - __Model2__ . Enrich the previous model by __Augmenting the dataset__ (training, validation and testing) with __RandomFlip, RandomRotation and RandomZoom__ and adding a __DROPOUTS layer__ additionally.
+    - Train the model for 20 epochs.
     
     - Conclusion. Training accuracy is 64.9% while the Validation accuracy is 53% still indicating presence of slight OVERFITTING as compared with Model1; addition of DROPOUTS hasn't addressed OVERFITTING much i.e., the model may not generalize well to unseen data.
     - The graph reflects that -
         - During the training process, the model's training accuracy linearly increases over time and gets stalled around 55%-65%, whereas the validation accuracy plateaus at 50%-53% accuracy.
         - As the training epochs progress, the training loss decreases, however, the validation loss stalls around 1.5.
     
-    - __Model3__. __Rectify the Class Imbalance)) and re-run Model2. 
+    - __Model3__. __Rectify the Class Imbalance and re-run Model2. 
     - Train the model for 30 epochs.
     - Conclusion. With Training accuracy is 84.6% and Validation accuracy of 78.8%, the OVERFITTING problem has been RESOLVED in Model3 i.e., the Model should perform well on Unknown dataset.
     - Thus, we can conclude that Data Augmentation technique and Class Imbalance handling has played a significant Role in addressing the the overfitting problem initially present in the Dataset while also Improving the Model accuracy.
