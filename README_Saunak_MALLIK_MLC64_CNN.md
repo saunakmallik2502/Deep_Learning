@@ -43,6 +43,7 @@
 - __MODEL BUILDING__. I have created 3 models -
 
     - __Model1__ . Base model with training and testing accuracy of 92% and 55% shows the presence of very high __OVERFITTING__ in Model1  i.e., the model may not generalize well to unseen data.
+    - Train the model for 20 epochs.
     - Conclusion. Training accuracy is 92.9% while the Validation accuracy is 55.7% indicating presence of OVERFITTING in Model1 i.e., the model may not generalize well to unseen data.
     - The graph reflects that -
         - During the training process, the model's training accuracy linearly increases over time, whereas the validation accuracy plateaus at 50% accuracy.
